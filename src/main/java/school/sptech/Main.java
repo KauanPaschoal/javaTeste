@@ -34,7 +34,7 @@ public class Main {
 
 
         S3Client s3Client = new S3Provider().getS3Client();
-        String nomeBucket = "bucket-horizon";
+        String nomeBucket = "bucket-horizon2";
 
         try {
             s3Client.headBucket(HeadBucketRequest.builder().
